@@ -22,9 +22,9 @@ What are the layers for the map project and their contents
 	- `viewport neatline`
 	- `study area - clip`
 	- `study area`
-2. Move the neatline of the viewport to  `viewport-neatline` if it's not there already
+2. Move the neatline of the viewport to  `viewport-neatline` if it's not there already. [Ungroup the object](https://answers.launchpad.net/inkscape/+question/64895) (*ctrl+shift+g*)
 3. Copy the viewport neatline from `viewport-neatline` and paste in place (*ctrl+alt+v*) in 'study area - clip`
-4. Repeat Step 3, but paste in place in `study area`
+4. Repeat Step 3, but paste in place in `study area.
 5. In `study area` draw the shape of the study area
 	- Note: Freehand (F6) with Smoothing set at ~50-60 seems to be alright
 	- Simplify the path (*ctrl-l*) and mess with the node handles to clean up the shape.
@@ -33,7 +33,7 @@ What are the layers for the map project and their contents
 8. For the shape in `study area`, start with these fill settings:
 	- Color: #ffffffff
 	- Blur: 4.5
-	- Opacity: 95
+	- Opacity: 75
 9. Resize the study area viewport thingy so that the areas around the edges are not hollowed out. The blur will spill over into other parts of the document. Don't worry.
 10. Make sure every layer except `study area - clip` and `study area` is locked. Select all and set a clip (*Object>Clip>Set*).
 	- [Sweet clip/mask explanation and tutorial](http://design.tutsplus.com/tutorials/quick-tip-what-are-clipping-and-masking-in-inkscape--vector-24947)
