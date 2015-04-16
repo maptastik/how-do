@@ -38,3 +38,12 @@ What are the layers for the map project and their contents
 10. Make sure every layer except `study area - clip` and `study area` is locked. Select all and set a clip (*Object>Clip>Set*).
 	- [Sweet clip/mask explanation and tutorial](http://design.tutsplus.com/tutorials/quick-tip-what-are-clipping-and-masking-in-inkscape--vector-24947)
 11. This should do it, but if you need to adjust anything, make sure to first release the clip on `study area` (*Object>Clip>Release*)
+
+## Pitfalls & Wisdom
+
+Exporting SVGs out of Arc and opening them in Inkscape is sometimes a frustrating mess. Here are some things to look out for.
+
+- The Layers tab is going to be empty when you open the SVG. This sucks compared to AI, but whatevs. You need to make sure you have the XML editor open and use it to move the layers that are invisible in the layers tab into layers that you create.
+- When doing the exclusion, make sure that none of the objects being used are grouped. The exclusion doesn't work on grouped objects
+- Sometimes it seems that when the exclusion occurs, it works a little overzealously and a "bite" gets taken out of the bottom of the donut. There's a set of clipped and grouped objects that are only accessible through the XML editor that you need to delete.
+- Watch out for the disappearing title! It seems to go invisible, but is still there. Sometimes in the XML editor it's under something like "Object3".
