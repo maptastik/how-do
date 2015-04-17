@@ -1,4 +1,4 @@
-# Right-click menu artifact remains on screen after selection
+# Remove artifact from right-click menu
 
 Sometimes in Windows 7 - and apparently in all Windows OSes since 2000 - there's the possibility that after you've selected something from the right-click menu, the thing you selected will hang around as the top-most layer on the screen. How to fix this ([source](http://superuser.com/questions/57016/menu-select-item-stuck-on-screen-after-context-or-command-menu-has-closed)).
 
