@@ -22,6 +22,8 @@ A collection of thingies that help me answer "How the fuck did I do that last ti
 
 ### GIS
 
+- [Exporting a Georeferenced Raster w/ Transparency](https://github.com/maptastik/how-do/blob/master/georeferenced-raster-transparency.md)
+
 ### Webmaps
 
 
