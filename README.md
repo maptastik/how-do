@@ -26,6 +26,6 @@ A collection of thingies that help me answer "How the fuck did I do that last ti
 
 ### Webmaps
 
-
+- [Zoom to location from link outside of `<div id-'map'>` (Leaflet)](https://github.com/maptastik/how-do/blob/master/zoom-from-hyperlink.md)
 
 
