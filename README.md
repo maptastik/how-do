@@ -8,7 +8,7 @@ A collection of thingies that help me answer "How the fuck did I do that last ti
 
 ## Data things
 
-- [Filtering US Census data for download]((https://github.com/maptastik/how-do/blob/master/census-data-download.md))
+- [Filtering US Census data for download](https://github.com/maptastik/how-do/blob/master/census-data-download.md)
 
 ## Designy things
 
